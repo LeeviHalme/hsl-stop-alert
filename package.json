@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/LeeviHalme/hsl-stop-alert/issues"
   },
-  "homepage": "https://github.com/LeeviHalme/hsl-stop-alert#readme"
+  "homepage": "https://github.com/LeeviHalme/hsl-stop-alert#readme",
+  "dependencies": {
+    "ws": "^6.1.0"
+  }
 }
