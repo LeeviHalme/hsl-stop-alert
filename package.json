@@ -1,0 +1,24 @@
+{
+  "name": "hsl-stop-alert",
+  "version": "1.0.0",
+  "description": "Alert user when the bus is near his stop using HSL WebSockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeviHalme/hsl-stop-alert.git"
+  },
+  "keywords": [
+    "hsl",
+    "websockets",
+    "alert"
+  ],
+  "author": "Leevi Halme (https://leevihal.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeeviHalme/hsl-stop-alert/issues"
+  },
+  "homepage": "https://github.com/LeeviHalme/hsl-stop-alert#readme"
+}
