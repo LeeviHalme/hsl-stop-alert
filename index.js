@@ -6,8 +6,18 @@
  */
 
 // Require Dependencies
-const ws = require("ws");
+const WebSocket = require("ws");
 
-const wsUrl = "wss://mqtt.hsl.fi/";
+const wsUrl = "wss://mqtt.hsl.fi";
 const busStopId = 0;
 
+// WebSocket Setup
+const ws = new WebSocket(wsUrl);
+ 
+ws.on("open", function open() {
+  ws.send("connect");
+});
+ 
+ws.on("message", function incoming(data) {
+  console.log(data);
+});
